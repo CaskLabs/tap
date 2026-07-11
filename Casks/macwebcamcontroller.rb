@@ -4,10 +4,10 @@ cask "macwebcamcontroller" do
 
   url "https://github.com/CaskLabs/MacWebcamController/releases/download/v#{version}/MacWebcamController-#{version}.zip"
   name "MacWebcamController"
-  desc "Native macOS menu bar controller for UVC webcam settings"
+  desc "Menu bar controller for UVC webcam settings"
   homepage "https://github.com/CaskLabs/MacWebcamController"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "MacWebcamController.app"
