@@ -1,6 +1,6 @@
 cask "macwebcamcontroller" do
-  version "0.1.0"
-  sha256 "9e67414635e6cd0de873203cd9f05b07aac334c0741da9ec3a0d1b70343aab08"
+  version "0.2.0"
+  sha256 "25d8249b51bbb81861161206cf1cfa3f9882f813844aed921f482acf7b4c9e74"
 
   url "https://github.com/CaskLabs/MacWebcamController/releases/download/v#{version}/MacWebcamController-#{version}.zip"
   name "MacWebcamController"
