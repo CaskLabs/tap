@@ -1,14 +1,14 @@
 cask "macwebcamcontroller" do
-  version "0.3.0"
-  sha256 "44cd4ca72443ad65bbf7e55f8d4c7f51c8034b7d8c1da852b019922036a860a1"
+  version "0.4.0"
+  sha256 "48870dfa56c386f24ab179ae0f3afc0653f580982cca49edb682600445d8284b"
 
   url "https://github.com/CaskLabs/MacWebcamController/releases/download/v#{version}/MacWebcamController-#{version}.zip"
   name "MacWebcamController"
   desc "Menu bar controller for UVC webcam settings"
   homepage "https://github.com/CaskLabs/MacWebcamController"
 
-  depends_on macos: :tahoe
   depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   app "MacWebcamController.app"
 
